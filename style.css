@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background: black;
+  font-family: "Press Start 2P", avenir;
+}
+
+.vc-wrap {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+canvas {
+  cursor: crosshair;
+  position: relative;
+  left: -2px;
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #e3e7e7;
+  text-align: center;
+  font-size: 10px;
+}
+
+a {
+  color: rgb(78, 255, 8);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  font-size: 12px;
+}
+
+a:hover {
+  color: gray;
+}
+
+.btn-group {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Press Start 2P", avenir;
+  border-radius: 2px;
+  font-weight: 100;
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  outline: 0 !important;
+  font-size: 10px;
+  margin: 0px;
+  padding: 8px 15px 6px;
+}
+
+.hidden {
+  display: none;
+}
