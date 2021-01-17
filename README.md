@@ -19,3 +19,4 @@ On peut également formuler cette évolution ainsi :
 si une cellule a exactement trois voisines vivantes, elle est vivante à l’étape suivante. 
 si une cellule a exactement deux voisines vivantes, elle reste dans son état actuel à l’étape suivante.
 si une cellule a strictement moins de deux ou strictement plus de trois voisines vivantes, elle est morte à l’étape suivante. 
+
