@@ -1,4 +1,4 @@
-# Jeu de lavie | Nuit de l'info 2020 🌙
+# Jeu de la vie | Nuit de l'info 2020 🌙
 Defi organiser par SEPTEO  : nuit de l'info 2020 
 2eme place 
 description 
